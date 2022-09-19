@@ -1,0 +1,21 @@
+TensorFlow-2 framework having Python 3.7.13 at Intel(R) Xeon(R) CPU @ 2.00GHz, 52 GB RAM, Tesla T4 16 GB GPU.
+
+
+import pandas as pd
+import numpy as np
+from PIL import Image, ImageDraw
+from shapely.geometry import Polygon, Point
+from matplotlib import pyplot as plt
+import glob
+import cv2
+import tensorflow as tf 
+from tensorflow.keras.layers import AveragePooling2D
+from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import Flatten
+from tensorflow.keras.layers import Dense
+from tensorflow.keras.layers import Input
+from tensorflow.keras.models import Model
+from tensorflow.keras.optimizers
+
+
+The database was split into training, validation, and testing sets with a ratio of 7 : 1 : 2.
